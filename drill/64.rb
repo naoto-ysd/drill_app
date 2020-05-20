@@ -10,7 +10,7 @@
 # left2('Hi') → 'Hi'
 
 def left2(str)
-  puts str[0..2]
+  puts str[0..-4]
 end
 
 left2('Hello')
