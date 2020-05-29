@@ -11,11 +11,14 @@
 
 # それでは、1000000以下の整数のうち、一桁の数に到達するのに必要な「操作」の回数が6回となるものはいくつあるかを、求めてください。
 
+# これはわからんから放置
+
 count = 1
 ary = []
 
 while count <= 100
   ary.push(count)
   puts ary
+  ary.each
   count += 1
 end
