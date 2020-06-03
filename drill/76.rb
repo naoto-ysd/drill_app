@@ -10,7 +10,7 @@
 # count_hi('hihi') → 2
 
 def count_hi(str)
-  puts str.scan('hi').length
+  p str.scan("hi").length
 end
 
-count_hi('hihi')
+count_hi('ABChi hi')
