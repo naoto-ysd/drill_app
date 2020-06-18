@@ -1,0 +1,1 @@
+itemsコントローラのアクションが呼び出された際の、レイアウトファイルとしてapp/views/layouts/hogehoge.htmlが使われるようになる。何も指定しない場合はapp/views/layouts/application.htmlが読み込まれる。
