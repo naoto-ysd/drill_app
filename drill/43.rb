@@ -13,6 +13,8 @@ end
 # コントローラによってヘッダー・フッターのデザインを変更したり、読み込むCSSを切り替えるメソッド。
 
 
-# ②①のコードで、itemsコントローラに「layout 'hogehoge'」があることで、ない場合と具体的にどのような動作の違いが出るか説明してください。
+# ②①のコードで、itemsコントローラに「layout 'hogehoge'」があることで、
+# ない場合と具体的にどのような動作の違いが出るか説明してください。
 # 回答
-# itemsコントローラのアクションが呼び出された際の、レイアウトファイルとしてapp/views/layouts/hogehoge.htmlが使われるようになる。何も指定しない場合はapp/views/layouts/application.htmlが読み込まれる。
+# itemsコントローラのアクションが呼び出された際の、
+# レイアウトファイルとしてapp/views/layouts/hogehoge.htmlが使われるようになる。何も指定しない場合はapp/views/layouts/application.htmlが読み込まれる。
