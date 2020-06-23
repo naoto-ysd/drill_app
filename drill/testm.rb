@@ -49,5 +49,3 @@ upperary = upperstr(ary)
 upperary.each{|ustr|
   p ustr
 }
-
-# M3 is a company which provides medical-related services through the use of the Internet since 2000. M3 stands for Medicine, Media and Metamorphosis. 
